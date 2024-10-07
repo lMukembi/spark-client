@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logininfo {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.welcome {
+  padding: 3rem 1rem;
+  align-items: center;
+  background-image: linear-gradient(to right, #cc208e 0%, #6713d2 100%);
+}
+
+.package {
+  background-image: linear-gradient(to left, #cc208e 0%, #6713d2 100%);
+}
+
+.transactions {
+  background-image: linear-gradient(to left, #df89b5 50%, #940d4c 100%);
+}
+
+.referal {
+  background-image: linear-gradient(to left, #df89b5 50%, #940d4c 100%);
+}
+
+.package,
+.transactions,
+.referal {
+  flex-direction: column !important;
+}
+
+.referal,
+.transactions {
+  padding: 1rem;
+}
+
+.welcome,
+.package,
+.transactions,
+.referal {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.package .membership {
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 1rem 5px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: black;
+}
+
+.package .membership .membershipicon {
+  color: #53ff88;
+  font-size: 22px;
+}
+
+.package .upgradebtn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #940d4c;
+  margin: 1rem 5px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.package .upgradebtn .upgradeicon {
+  color: #53ff88;
+  font-size: 22px;
+}
+
+.package .membership,
+.upgradebtn {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.welcome .welcomeicon {
+  color: yellow;
+}
+
+.package p {
+  margin: 5px;
+}
+
+.referaltop,
+.transactionstop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.transactions i {
+  font-size: 12px;
+}
+
+.referal .referallink {
+  font-size: 11px;
+  width: 200px;
+  background-color: #ccc;
+  white-space: nowrap;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.referal .referallink,
+.copylink {
+  display: flex;
+  align-items: center;
+}
+
+.referal .referallink .copylink {
+  position: relative;
+  right: 25px;
+  background-color: #940d4c;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}

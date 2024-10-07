@@ -1,0 +1,136 @@
+.earningswrapper {
+  background-image: linear-gradient(to right, #df89b5 50%, #940d4c 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+  font-weight: bold;
+  padding-top: 1px;
+}
+
+.earningscontainer {
+  height: 450px;
+  overflow-y: scroll;
+}
+
+.earningsinfo,
+.whatsapp,
+.cashback,
+.spin,
+.invest,
+.academic,
+.deposit,
+.accountbal,
+.total {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.spin,
+.invest,
+.academic,
+.deposit,
+.accountbal,
+.total {
+  padding: 20px 5px !important;
+}
+
+.whatsapptop,
+.cashbacktop,
+.spintop,
+.investtop,
+.academictop,
+.deposittop,
+.accounttop,
+.totaltop {
+  display: flex;
+  align-items: center;
+}
+
+.whatsappicon,
+.cashbackicon,
+.spinicon,
+.investicon,
+.academicicon,
+.depositicon,
+.accounticon,
+.totalicon {
+  color: #53ff88;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgba(11, 175, 52, 0.719);
+  margin-right: 5px;
+}
+
+.earningsinfo {
+  font-size: 14px;
+  font-weight: 500;
+  background-image: linear-gradient(to left, #cf6cc9 50%, #940d4c 100%);
+}
+
+.earningsinfo i {
+  color: #53ff88;
+}
+
+.earningswrapper p {
+  color: black;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+/* Whatsapp */
+.whatsapp {
+  background-image: linear-gradient(to right, #0f0e0f 0%, #fee140 100%);
+}
+
+/* Cashback */
+.cashback {
+  background-image: linear-gradient(120deg, #940d4c 0%, #fda085 100%);
+}
+
+/* Spining */
+.spin {
+  background-image: linear-gradient(120deg, #ffac2c 0%, #0f0e0f 100%);
+}
+
+/* Investing */
+.invest {
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+}
+
+/* Academic */
+.academic {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+/* Deposit */
+.deposit {
+  background-image: linear-gradient(to left, #0fd850 0%, #f9f047 100%);
+}
+
+/* Total */
+.total {
+  background-image: linear-gradient(to right, #940d4c 0%, #e14fad 100%);
+}
+
+/* Account Bal */
+.accountbal {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 50%,
+    #ff1361 100%
+  );
+}

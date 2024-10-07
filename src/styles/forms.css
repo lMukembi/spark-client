@@ -1,0 +1,189 @@
+.form {
+    padding: 0 5px 0 5px;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  
+  .form h1,
+  h2,
+  h4 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  .form h2,
+  h4 {
+    font-weight: 200;
+  }
+  
+  .form h4 {
+    font-size: 20px;
+    margin: 0 0 2rem 0;
+  }
+  
+  .form .field {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+  
+  .form .loginwrapper .field {
+    margin: 2rem 0;
+  }
+  
+  .form input {
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #96a781;
+  }
+  
+  .phoneInfo {
+    font-size: 10px;
+  }
+  
+  .form .showPassword,
+  .showConfirmPassword {
+    cursor: pointer;
+    position: absolute;
+    top: 105%;
+    z-index: 2;
+    right: 10%;
+    color: #0f9d58;
+  }
+  
+  .form .showConfirmPassword {
+    top: 120%;
+  }
+  
+  .form .showLoginPassword {
+    cursor: pointer;
+    position: absolute;
+    top: 45.5%;
+    z-index: 2;
+    right: 10%;
+    color: #0f9d58;
+  }
+  
+  label {
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form .register,
+  .login,
+  .sendcode {
+    text-align: center;
+  }
+  
+  .form .login .loginBtn,
+  .forgotPsdBtn {
+    background-color: #0f9d58;
+    border: 0px;
+    padding: 15px 9rem;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .form .forgotPsdBtn {
+    padding: 15px 8rem !important;
+  }
+  
+  .form .loginwrapper .forgotpassword {
+    margin: 3rem 0;
+    text-align: right;
+  }
+  
+  .form .message {
+    text-align: center;
+  }
+  
+  .regLoginBtn {
+    background: -webkit-linear-gradient(#0f9d58, #db4437, #f4b400);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .form div button {
+    border: 0px;
+    padding: 15px 5px;
+    width: 98%;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 2rem auto 0 auto;
+  }
+  
+  .forgotPsdBack {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forgotPsdHeader {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .updateStatus {
+    color: deeppink;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .status {
+    position: absolute;
+    z-index: 2;
+    right: 10%;
+  }
+  
+  .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #283541;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+    z-index: 99;
+  }
+  
+  .info {
+    font-size: 15px;
+    float: left;
+    margin: 0 1px 0 0;
+    color: #db4437;
+  }
+  
+  .offscreen {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .status i .usernameValidity {
+    top: 80% !important;
+  }
+  
+  .status .phoneValidity {
+    top: 45.5%;
+  }
+  
+  .status .emailValidity {
+    top: 45.5%;
+  }
+  
+  .status .valid {
+    color: #0f9d58;
+  }
+  
+  .status .invalid {
+    color: #ee6f59;
+  }
+  
