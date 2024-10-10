@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/earnings.css";
-import { MdWhatsapp } from "react-icons/md";
+import { MdOutlineCurrencyExchange, MdWhatsapp } from "react-icons/md";
 import { MdSpaceDashboard } from "react-icons/md";
 import { ImSpinner9 } from "react-icons/im";
 import { IoCashOutline } from "react-icons/io5";
@@ -8,7 +8,6 @@ import { VscGraph } from "react-icons/vsc";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { TbPigMoney } from "react-icons/tb";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
-import { FaMoneyBillTransfer } from "react-icons/fa6";
 
 export const Earnings = () => {
   return (
@@ -74,7 +73,7 @@ export const Earnings = () => {
 
         <div className="total">
           <div className="totaltop">
-            <MdOutlineAccountBalanceWallet className="totalicon" />
+            <MdOutlineCurrencyExchange className="totalicon" />
             Total Withdrawn
           </div>
           <div>KES 0.0</div>
@@ -82,7 +81,7 @@ export const Earnings = () => {
 
         <div className="accountbal">
           <div className="accounttop">
-            <FaMoneyBillTransfer className="accounticon" />
+            <MdOutlineAccountBalanceWallet className="accounticon" />
             <div>Account Balance</div>
           </div>
           <div>KES 0.0</div>

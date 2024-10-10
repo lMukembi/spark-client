@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/signup.css";
-import Crown from "../resources/Crown.jpg";
+import Crown from "../images/Crown.jpg";
 
 export const Signup = () => {
   return (

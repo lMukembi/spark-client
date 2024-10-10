@@ -1,20 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/header.css";
-import Crown from "../resources/Crown.jpg";
-import Boss from "../resources/Boss.png";
+import Crown from "../images/Crown.jpg";
+import Boss from "../images/Boss.png";
 import { RiMenuAddLine } from "react-icons/ri";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { TbSettingsPlus } from "react-icons/tb";
+import { Menu } from "./menu";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
+  const [menu, setMenu] = useState(false);
+
   return (
     <>
       <div className="headwrapper">
         <div className="head">
-          <img src={Crown} alt="" />
+          <Link to="/">
+            <img src={Crown} alt="" />
+          </Link>
           <div>
-            <RiMenuAddLine className="icon" />
+            <RiMenuAddLine
+              onClick={() => setMenu(!menu)}
+              className="icon menuicon"
+            />
+            {menu && <Menu close={setMenu} />}
           </div>
           <div>
             <MdOutlineAddShoppingCart className="icon" />
@@ -28,7 +38,7 @@ export const Header = () => {
           <img src={Boss} alt="" />
         </div>
       </div>
-      <hr />
+      <hr className="headhr" />
     </>
   );
 };

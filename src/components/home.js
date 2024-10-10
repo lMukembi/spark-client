@@ -7,6 +7,7 @@ import { Package } from "./package";
 import { Referal } from "./Referal";
 import { Transactions } from "./transactions";
 import { Earnings } from "./earnings";
+import { MdCopyright } from "react-icons/md";
 
 export const Home = () => {
   const userData = JSON.parse(localStorage.getItem("newUser"));
@@ -21,6 +22,12 @@ export const Home = () => {
       <Earnings />
       <Transactions />
       <Referal />
+      <hr className="homehr" />
+
+      <div className="homefooter">
+        <MdCopyright />
+        2024, Spark Agencies
+      </div>
     </div>
     //   ) : (
     //     <Login />

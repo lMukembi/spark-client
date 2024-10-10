@@ -1,0 +1,62 @@
+.menu {
+  background-image: url("../images/crystal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 5;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 5px;
+  width: 75%;
+  transition: 3s ease;
+  color: white;
+  font-weight: bold;
+}
+
+.menu hr {
+  width: 95%;
+  color: rgba(255, 255, 255, 0.4);
+  border-top: 1px;
+  margin: none !important;
+}
+
+.menugoback {
+  margin: 5px 5px auto auto;
+  font-size: 20px;
+  color: orangered;
+}
+
+.menuitems {
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.menuitems :any-link {
+  text-decoration: none;
+  color: white;
+}
+
+.menuitems .menuitem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  margin: 1rem 0px;
+}
+
+.menuitems .menuitem .menicon {
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.closemenu {
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 2;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
