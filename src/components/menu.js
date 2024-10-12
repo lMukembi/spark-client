@@ -51,19 +51,19 @@ export const Menu = ({ close }) => {
             </div>
           </Link>
 
-          <Link>
+          <Link to="/recharge">
             <div className="menuitem">
               <TbPigMoney className="menicon" /> Recharge
             </div>
           </Link>
 
-          <Link>
+          <Link to="/transfer">
             <div className="menuitem">
               <FaMoneyBillTransfer className="menicon" /> Transfer
             </div>
           </Link>
 
-          <Link>
+          <Link to="/withdraw">
             <div className="menuitem">
               <MdOutlineCurrencyExchange className="menicon" /> Withdraw
             </div>

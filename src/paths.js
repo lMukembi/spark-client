@@ -5,8 +5,11 @@ import { ForgotPassword } from "./components/forgotPassword";
 import { Signup } from "./components/signup";
 import { Account } from "./components/account";
 import { Login } from "./components/login";
-import { Capitalform } from "./components/capitalform";
+import { Capital } from "./components/capital";
 import { AllTransactions } from "./components/alltransactions";
+import { Recharge } from "./components/recharge";
+import { Transfer } from "./components/transfer";
+import { Withdraw } from "./components/withdraw";
 
 const Paths = () => {
   return (
@@ -16,8 +19,11 @@ const Paths = () => {
       <Route path="/signup" element={<Signup />} />
       <Route path="/account/:id" element={<Account />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/capital" element={<Capitalform />} />
+      <Route path="/capital" element={<Capital />} />
       <Route path="/transactions" element={<AllTransactions />} />
+      <Route path="/recharge" element={<Recharge />} />
+      <Route path="/transfer" element={<Transfer />} />
+      <Route path="/withdraw" element={<Withdraw />} />
     </Routes>
   );
 };

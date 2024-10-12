@@ -1,32 +1,40 @@
-.capitalwrapper {
+.capital_wrapper,
+.transfer_wrapper,
+.withdraw_wrapper {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   height: 100vh;
   margin: 5px;
 }
 
-.capital {
+.capital,
+.transfer,
+.withdraw {
   display: flex;
   flex-direction: column;
   color: white;
 }
 
-.capital input {
+.capital input,
+.transfer input,
+.withdraw input {
   padding: 10px;
-  margin: 5px 0px;
+  margin: 10px 0px;
   border-radius: 10px;
   border: 1px;
 }
 
-.capital button {
+.capital button,
+.transfer button,
+.withdraw button {
   border: none;
   border-radius: 10px;
   color: white;
-  background-color: orangered;
+  background-color: #940d4c;
   margin-top: 5px;
   font-weight: bold;
 }
 
-.capitalprofit {
+.capital_profit {
   font-style: italic;
 }
