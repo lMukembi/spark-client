@@ -4,13 +4,14 @@
 
 .recharge {
   color: white;
-  margin: 5px;
+  margin: 0px 5px;
   display: flex;
   flex-direction: column;
+  height: 48vh;
 }
 
 .recharge input {
-  padding: 10px 5px;
+  padding: 15px 10px;
   border-radius: 10px;
   margin: 10px 0px;
   border: 2px solid;
@@ -28,6 +29,9 @@
   font-weight: bold;
   color: white;
   border: none;
+  margin-top: 5px;
+  padding: 15px 10px;
+  border-radius: 10px;
 }
 
 .recharge_messages {
@@ -41,7 +45,7 @@
   color: white;
   border-radius: 10px;
   margin: 5px;
-  height: 50vh;
+  height: 48vh;
 }
 
 .recharge_messages .recharge_messages_container {
@@ -51,7 +55,7 @@
 .recharge_messages_top {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 .transaction_details {

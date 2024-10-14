@@ -1,19 +1,15 @@
 import React from "react";
-import Crown from "../images/Crown.jpg";
+import crown from "../images/crown.jpg";
 import "../styles/menu.css";
 import { MdClose, MdOutlineCurrencyExchange } from "react-icons/md";
 import { Link, Navigate } from "react-router-dom";
-import { RxDashboard } from "react-icons/rx";
+import { RxBackpack, RxDashboard } from "react-icons/rx";
 import { MdOutlineReceiptLong } from "react-icons/md";
 import { VscGraph } from "react-icons/vsc";
-import { TbPigMoney } from "react-icons/tb";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { LuContact2 } from "react-icons/lu";
-import {
-  RiCustomerService2Line,
-  RiLogoutCircleLine,
-  RiTokenSwapLine,
-} from "react-icons/ri";
+import { PiHandDepositBold, PiLockKeyOpenBold } from "react-icons/pi";
+import { RiLogoutCircleLine } from "react-icons/ri";
 import { IoPeopleOutline } from "react-icons/io5";
 
 export const Menu = ({ close }) => {
@@ -26,14 +22,14 @@ export const Menu = ({ close }) => {
       <div className="menu">
         <div className="header">
           <Link to="/">
-            <img src={Crown} alt="" />
+            <img src={crown} alt="" />
           </Link>
           <h2>Spark Agencies</h2>
           <MdClose className="menugoback" onClick={() => close()} />
         </div>
         <hr />
         <div className="menuitems">
-          <Link to="/">
+          <Link to="/" onClick={() => close()}>
             <div className="menuitem">
               <RxDashboard className="menicon" /> Dashboard
             </div>
@@ -53,7 +49,7 @@ export const Menu = ({ close }) => {
 
           <Link to="/recharge">
             <div className="menuitem">
-              <TbPigMoney className="menicon" /> Recharge
+              <PiHandDepositBold className="menicon" /> Recharge
             </div>
           </Link>
 
@@ -69,25 +65,25 @@ export const Menu = ({ close }) => {
             </div>
           </Link>
 
-          <Link>
+          <Link to="/team">
             <div className="menuitem">
               <IoPeopleOutline className="menicon" /> Team
             </div>
           </Link>
 
-          <Link>
+          <Link to="/packages">
             <div className="menuitem">
-              <RiCustomerService2Line className="menicon" /> Service Package
+              <RxBackpack className="menicon" /> Service Package
             </div>
           </Link>
 
-          <Link>
+          <Link to="/token">
             <div className="menuitem">
-              <RiTokenSwapLine className="menicon" /> Account Token
+              <PiLockKeyOpenBold className="menicon" /> Account Token
             </div>
           </Link>
 
-          <Link>
+          <Link to="/contact">
             <div className="menuitem">
               <LuContact2 className="menicon" /> Contact
             </div>

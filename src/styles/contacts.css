@@ -1,0 +1,37 @@
+.contact_wrapper {
+  height: 100vh;
+}
+
+.contact_wrapper h3 {
+  margin-left: 5px;
+  color: white;
+}
+
+.contact_wrapper .contact {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.contact textarea,
+.contact button {
+  margin: 10px 0px;
+}
+
+.contact button {
+  color: white;
+  border: 0px;
+  background-color: #940d4c;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.contact textarea {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px;
+}

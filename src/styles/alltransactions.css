@@ -3,8 +3,9 @@
   margin: 5px;
 }
 
-.all_transactions {
-  /* color: white; */
+.all_transactions_wrapper h3 {
+  color: white;
+  margin-left: 5px;
 }
 
 .transaction_details {

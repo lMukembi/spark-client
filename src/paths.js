@@ -10,6 +10,10 @@ import { AllTransactions } from "./components/alltransactions";
 import { Recharge } from "./components/recharge";
 import { Transfer } from "./components/transfer";
 import { Withdraw } from "./components/withdraw";
+import { Tokens } from "./components/tokens";
+import { Contact } from "./components/contacts";
+import { Team } from "./components/team";
+import { Packages } from "./components/packages";
 
 const Paths = () => {
   return (
@@ -24,6 +28,10 @@ const Paths = () => {
       <Route path="/recharge" element={<Recharge />} />
       <Route path="/transfer" element={<Transfer />} />
       <Route path="/withdraw" element={<Withdraw />} />
+      <Route path="/token" element={<Tokens />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/packages" element={<Packages />} />
     </Routes>
   );
 };

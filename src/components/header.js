@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/header.css";
-import Crown from "../images/Crown.jpg";
-import Boss from "../images/Boss.png";
+import crown from "../images/crown.jpg";
+import boss from "../images/boss.png";
 import { RiMenuAddLine } from "react-icons/ri";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
@@ -17,7 +17,7 @@ export const Header = () => {
       <div className="headwrapper">
         <div className="head">
           <Link to="/">
-            <img src={Crown} alt="" />
+            <img src={crown} alt="" />
           </Link>
           <div>
             <RiMenuAddLine
@@ -35,7 +35,7 @@ export const Header = () => {
           <div>
             <TbSettingsPlus className="icon" />
           </div>
-          <img src={Boss} alt="" />
+          <img src={boss} alt="" />
         </div>
       </div>
       <hr className="headhr" />

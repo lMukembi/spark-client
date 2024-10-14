@@ -1,0 +1,71 @@
+.team_wrapper {
+  height: 100vh;
+}
+
+.team_wrapper h3 {
+  color: white;
+  margin-left: 5px;
+}
+
+.team {
+  color: white;
+  width: 98%;
+  margin: 10px auto;
+  overflow-x: scroll;
+  background-image: linear-gradient(to left, #df89b5 50%, #940d4c 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  height: 88vh;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse !important;
+  font-weight: bold;
+}
+
+table thead {
+  background-color: black;
+  padding: 10px;
+}
+
+.team table thead tr th {
+  padding: 5px;
+}
+
+.team table tbody tr td {
+  white-space: nowrap;
+}
+
+.team table tbody tr td {
+  padding: 10px;
+}
+
+.team table tbody tr td:last-child button {
+  margin: 0px 5px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #a12dc2;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.team table tbody tr td:last-child button:first-child {
+  color: #09ff00 !important;
+}
+
+.team tbody tr td:last-child button:nth-child(2) {
+  color: orangered !important;
+}
+
+.team tbody tr td:last-child button:nth-child(3) {
+  color: orange !important;
+}
+
+tbody:nth-of-type(even) {
+  background-color: #818185 !important;
+}
+
+table:nth-of-type(odd) {
+  background-color: #d1a6bd62 !important;
+}

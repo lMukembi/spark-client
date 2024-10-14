@@ -7,6 +7,7 @@ export const AllTransactions = () => {
   return (
     <div className="all_transactions_wrapper">
       <Header />
+      <h3>All Transactions</h3>
       <div className="all_transactions">
         <div>
           <div className="transaction_details">
