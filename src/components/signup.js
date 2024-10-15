@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/signup.css";
-import Spark from "../assets/images/Spark.jpg";
+import Logo from "../assets/images/Logo.jpg";
 
 export const Signup = () => {
   return (
     <div className="signupwrapper">
       <div className="header">
-        <img src={Spark} alt="" />
+        <img src={Logo} alt="" />
         <h2>Spark Agencies</h2>
       </div>
       <hr />
