@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/recharge.css";
 import { Header } from "./header";
 import { MdOutlineReceiptLong } from "react-icons/md";
 import { TransactionCard } from "./transactioncard";
 
 export const Recharge = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="recharge_wrapper">
       <Header />

@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/actionform.css";
 import { Header } from "./header";
 import { InvestDropdown } from "./dropdowns";
 
 export const Capital = () => {
   const [selected, setSelected] = useState("");
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="capital_wrapper">
       <Header />

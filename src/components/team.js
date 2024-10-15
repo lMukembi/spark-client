@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/team.css";
 import { Header } from "./header";
 
 export const Team = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="team_wrapper">
       <Header />

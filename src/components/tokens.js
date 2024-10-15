@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/tokens.css";
 import { Header } from "./header";
 
 export const Tokens = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="tokens_wrapper">
       <Header />

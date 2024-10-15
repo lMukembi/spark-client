@@ -31,7 +31,7 @@ const Paths = () => {
       <Route path="/token" element={<Tokens />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/team" element={<Team />} />
-      <Route path="/packages" element={<Packages />} />
+      <Route path="/package" element={<Packages />} />
     </Routes>
   );
 };

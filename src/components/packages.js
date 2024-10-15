@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/packages.css";
 import { Header } from "./header";
 
 export const Packages = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="packages_wrapper">
       <Header />

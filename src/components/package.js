@@ -1,6 +1,7 @@
 import React from "react";
 import { TbMedal2 } from "react-icons/tb";
 import { HiOutlineBadgeCheck } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 export const Package = () => {
   return (
@@ -19,11 +20,12 @@ export const Package = () => {
         <i> 5,500.00 KES</i> and get awarded<i> 16,500.00 KES</i> to your
         M-pesa.
       </div>
-
-      <div className="upgradebtn">
-        <TbMedal2 className="upgradeicon" />
-        Upgrade now
-      </div>
+      <Link to="/package">
+        <div className="upgradebtn">
+          <TbMedal2 className="upgradeicon" />
+          Upgrade now
+        </div>
+      </Link>
     </div>
   );
 };

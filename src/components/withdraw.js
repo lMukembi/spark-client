@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/actionform.css";
 import { Header } from "./header";
 import { WalletDropdown } from "./dropdowns";
 
 export const Withdraw = () => {
   const [selected, setSelected] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="withdraw_wrapper">
       <Header />

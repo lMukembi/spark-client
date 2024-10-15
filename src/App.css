@@ -74,6 +74,12 @@
   margin: 1rem 5px;
   border-radius: 10px;
   font-size: 13px;
+  text-decoration: none;
+}
+
+.package :any-link {
+  text-decoration: none;
+  color: white;
 }
 
 .package .upgradebtn .upgradeicon {

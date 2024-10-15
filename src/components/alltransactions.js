@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/alltransactions.css";
 import { GrTransaction } from "react-icons/gr";
 import { Header } from "./header";
 
 export const AllTransactions = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="all_transactions_wrapper">
       <Header />

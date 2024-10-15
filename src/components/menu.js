@@ -71,7 +71,7 @@ export const Menu = ({ close }) => {
             </div>
           </Link>
 
-          <Link to="/packages">
+          <Link to="/package">
             <div className="menuitem">
               <RxBackpack className="menicon" /> Service Package
             </div>
