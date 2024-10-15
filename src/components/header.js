@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/header.css";
-import crown from "../images/crown.jpg";
+import spark from "../images/spark.jpg";
 import boss from "../images/boss.png";
 import { RiMenuAddLine } from "react-icons/ri";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
@@ -17,7 +17,7 @@ export const Header = () => {
       <div className="headwrapper">
         <div className="head">
           <Link to="/">
-            <img src={crown} alt="" />
+            <img src={spark} alt="" />
           </Link>
           <div>
             <RiMenuAddLine
