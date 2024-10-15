@@ -35,61 +35,67 @@ export const Menu = ({ close }) => {
             </div>
           </Link>
 
-          <Link to="/capital">
+          <Link to="/capital" onClick={() => close()}>
             <div className="menuitem">
               <VscGraph className="menicon" /> Capital
             </div>
           </Link>
 
-          <Link to="/transactions">
+          <Link to="/transactions" onClick={() => close()}>
             <div className="menuitem">
               <MdOutlineReceiptLong className="menicon" /> Transactions
             </div>
           </Link>
 
-          <Link to="/recharge">
+          <Link to="/recharge" onClick={() => close()}>
             <div className="menuitem">
               <PiHandDepositBold className="menicon" /> Recharge
             </div>
           </Link>
 
-          <Link to="/transfer">
+          <Link to="/transfer" onClick={() => close()}>
             <div className="menuitem">
               <FaMoneyBillTransfer className="menicon" /> Transfer
             </div>
           </Link>
 
-          <Link to="/withdraw">
+          <Link to="/withdraw" onClick={() => close()}>
             <div className="menuitem">
               <MdOutlineCurrencyExchange className="menicon" /> Withdraw
             </div>
           </Link>
 
-          <Link to="/team">
+          <Link to="/team" onClick={() => close()}>
             <div className="menuitem">
               <IoPeopleOutline className="menicon" /> Team
             </div>
           </Link>
 
-          <Link to="/package">
+          <Link to="/package" onClick={() => close()}>
             <div className="menuitem">
               <RxBackpack className="menicon" /> Service Package
             </div>
           </Link>
 
-          <Link to="/token">
+          <Link to="/token" onClick={() => close()}>
             <div className="menuitem">
               <PiLockKeyOpenBold className="menicon" /> Account Token
             </div>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/contact" onClick={() => close()}>
             <div className="menuitem">
               <LuContact2 className="menicon" /> Contact
             </div>
           </Link>
 
-          <div onClick={() => logoutUser()} className="menuitem">
+          <div
+            onClick={() => {
+              logoutUser();
+              close();
+            }}
+            className="menuitem"
+          >
             <RiLogoutCircleLine className="menicon" />
             Logout
           </div>

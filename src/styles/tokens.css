@@ -17,6 +17,16 @@
   overflow-y: scroll;
 }
 
+.auth_token h4,
+.access_keycard h4,
+.credential_token h4,
+.gate_pass h4,
+.entity_token h4 {
+  box-shadow: rgba(33, 35, 38, 1) 0px 10px 10px -10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .auth_token,
 .access_keycard,
 .credential_token,

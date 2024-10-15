@@ -28,9 +28,11 @@ export const Header = () => {
           </div>
           <div>
             <MdOutlineAddShoppingCart className="icon" />
+            <sup className="cartsup">0</sup>
           </div>
           <div>
             <IoMdNotificationsOutline className="icon" />
+            <sup className="notsup">0</sup>
           </div>
           <div>
             <TbSettingsPlus className="icon" />

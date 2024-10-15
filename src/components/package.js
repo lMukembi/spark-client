@@ -12,6 +12,7 @@ export const Package = () => {
         Grand Membership
       </div>
       <div className="earningsinfo">
+        <h4>Wednesday's Give away Cashback🎄.</h4>
         Buy Elite package@1,000.00 KES and get awarded<i> 3,000.00 KES</i> to
         your M-pesa, buy the Prestige package @2,000.00 KES and get awarded
         <i> 6,000.00 KES</i> to your M-pesa buy the Deluxe package at

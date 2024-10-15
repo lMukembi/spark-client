@@ -22,10 +22,10 @@ export const Earnings = () => {
             <MdWhatsapp className="whatsappicon" />
             Whatsapp Balance
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
           <br />
           <div>Total Whatsapp Withdrawal</div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="cashback">
@@ -33,10 +33,10 @@ export const Earnings = () => {
             <IoCashOutline className="cashbackicon" />
             Cashback Balance
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
           <br />
           <div>Total Cashback Withdrawal</div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="spin">
@@ -44,7 +44,7 @@ export const Earnings = () => {
             <ImSpinner9 className="spinicon" />
             Spinning Balance
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="invest">
@@ -52,7 +52,7 @@ export const Earnings = () => {
             <VscGraph className="investicon" />
             Invested Balance
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="academic">
@@ -60,7 +60,7 @@ export const Earnings = () => {
             <FaMoneyBillTrendUp className="academicicon" />
             Academic Balance
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="deposit">
@@ -68,7 +68,7 @@ export const Earnings = () => {
             <TbPigMoney className="depositicon" />
             Deposit Balance
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="total">
@@ -76,7 +76,7 @@ export const Earnings = () => {
             <MdOutlineCurrencyExchange className="totalicon" />
             Total Withdrawn
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
 
         <div className="accountbal">
@@ -84,7 +84,7 @@ export const Earnings = () => {
             <MdOutlineAccountBalanceWallet className="accounticon" />
             <div>Account Balance</div>
           </div>
-          <div>KES 0.0</div>
+          <div>KES 0.00</div>
         </div>
       </div>
     </div>

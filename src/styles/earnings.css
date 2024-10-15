@@ -13,6 +13,34 @@
   overflow-y: scroll;
 }
 
+.whatsapp,
+.cashback,
+.spin,
+.invest,
+.academic,
+.deposit,
+.accountbal,
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.whatsapp,
+.cashback {
+  height: 150px;
+}
+
+.spin,
+.invest,
+.academic,
+.deposit,
+.accountbal,
+.total {
+  height: 120px;
+}
+
 .earningsinfo,
 .whatsapp,
 .cashback,
@@ -23,18 +51,8 @@
 .accountbal,
 .total {
   border-radius: 10px;
-  padding: 5px;
   margin: 10px 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.spin,
-.invest,
-.academic,
-.deposit,
-.accountbal,
-.total {
-  padding: 20px 5px !important;
 }
 
 .whatsapptop,
@@ -67,7 +85,15 @@
 .earningsinfo {
   font-size: 14px;
   font-weight: 500;
-  background-image: linear-gradient(to left, #cf6cc9 50%, #940d4c 100%);
+  background-image: linear-gradient(450deg, #940d4cea, #d19cb862),
+    url("/src/assets/images/Pups.png");
+  padding: 5px;
+  text-align: center;
+}
+
+.earningsinfo h4 {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .earningsinfo i {
@@ -76,15 +102,16 @@
 
 .earningswrapper p {
   color: black;
-  margin: 5px;
   display: flex;
   align-items: center;
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(33, 35, 38, 0.5) 0px 10px 10px -10px;
 }
 
 /* Whatsapp */
 .whatsapp {
-  background-image: linear-gradient(to right, #0f0e0f 0%, #fee140 100%);
+  background-image: linear-gradient(to right, #2b282b 0%, #fae25b 100%);
 }
 
 /* Cashback */
@@ -94,30 +121,22 @@
 
 /* Spining */
 .spin {
-  background-image: linear-gradient(120deg, #ffac2c 0%, #0f0e0f 100%);
+  background-image: linear-gradient(450deg, #56042a, #e6b56c);
 }
 
 /* Investing */
 .invest {
-  background-image: linear-gradient(
-    to right,
-    #b8cbb8 0%,
-    #b8cbb8 0%,
-    #b465da 0%,
-    #cf6cc9 33%,
-    #ee609c 66%,
-    #ee609c 100%
-  );
+  background-image: linear-gradient(to left, #940d4c 0%, #e14fad 100%);
 }
 
 /* Academic */
 .academic {
-  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  background-image: linear-gradient(90deg, #d39d4d 0%, #2c282c 100%);
 }
 
 /* Deposit */
 .deposit {
-  background-image: linear-gradient(to left, #0fd850 0%, #f9f047 100%);
+  background-image: linear-gradient(240deg, #940d4c 0%, #fda085 100%);
 }
 
 /* Total */
@@ -127,10 +146,5 @@
 
 /* Account Bal */
 .accountbal {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 50%,
-    #ff1361 100%
-  );
+  background-image: linear-gradient(-225deg, #2a1d58 0%, #cc4170 100%);
 }

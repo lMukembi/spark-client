@@ -38,7 +38,7 @@ export const Packages = () => {
             <i>Status Marketing.</i>
             <i>Get 150 KSH per view.</i>
             <i>Account Support.</i>
-            <i>Fast Pay</i>
+            <i>Fast Pay.</i>
           </div>
 
           <button>Buy 3,500.00 KES</button>
@@ -50,7 +50,7 @@ export const Packages = () => {
             <i>Status Marketing.</i>
             <i>Get 150 KSH per view.</i>
             <i>Account Support.</i>
-            <i>Fast Pay</i>
+            <i>Fast Pay.</i>
             <i>Agents Access.</i>
           </div>
 

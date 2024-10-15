@@ -14,15 +14,16 @@
 .welcome {
   padding: 3rem 1rem;
   align-items: center;
-  background-image: linear-gradient(to right, #cc208e 0%, #6713d2 100%);
+  background-image: linear-gradient(to right, #ca3493 0%, #7736cc 100%);
 }
 
 .package {
-  background-image: linear-gradient(to left, #cc208e 0%, #6713d2 100%);
+  background-image: linear-gradient(to left, #ca3493 0%, #7736cc 100%);
 }
 
 .transactions {
   background-image: linear-gradient(to left, #df89b5 50%, #940d4c 100%);
+  height: 150px;
 }
 
 .referal {

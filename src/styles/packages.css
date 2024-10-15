@@ -48,7 +48,7 @@
 .prestige_package div h4,
 .delux_package div h4,
 .grand_package div h4 {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(33, 35, 38, 1) 0px 10px 10px -10px;
   padding: 5px;
 }
 
