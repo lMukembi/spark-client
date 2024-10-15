@@ -1,5 +1,5 @@
 import React from "react";
-import Spark from "../images/Spark.jpg";
+import Logo from "../assets/images/Logo.jpg";
 import "../styles/menu.css";
 import { MdClose, MdOutlineCurrencyExchange } from "react-icons/md";
 import { Link, Navigate } from "react-router-dom";
@@ -22,7 +22,7 @@ export const Menu = ({ close }) => {
       <div className="menu">
         <div className="header">
           <Link to="/">
-            <img src={Spark} alt="" />
+            <img src={Logo} alt="" />
           </Link>
           <h2>Spark Agencies</h2>
           <MdClose className="menugoback" onClick={() => close()} />
