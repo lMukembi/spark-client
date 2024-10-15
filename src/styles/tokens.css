@@ -54,7 +54,7 @@
 .gate_pass,
 .entity_token {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../images/Auth.jpg");
+    url("../assets/images/Auth.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -69,20 +69,20 @@
 
 .access_keycard {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../images/Keycard.png") !important;
+    url("../assets/images/Keycard.png") !important;
 }
 
 .gate_pass {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../images/Gate.jpg") !important;
+    url("../assets/images/Gate.jpg") !important;
 }
 
 .credential_token {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../images/Credential.jpeg") !important;
+    url("../assets/images/Credential.jpeg") !important;
 }
 
 .entity_token {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../images/Entity.jpg") !important;
+    url("../assets/images/Entity.jpg") !important;
 }
