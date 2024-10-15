@@ -73,20 +73,20 @@
 
 .elite_package {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../assets/images/Elite.jpeg");
+    url("/src/assets/images/Elite.jpeg");
 }
 
 .prestige_package {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../assets/images/Prestige.jpg");
+    url("/src/assets/images/Prestige.jpg");
 }
 
 .grand_package {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../assets/images/Grand.jpg");
+    url("/src/assets/images/Grand.jpg");
 }
 
 .delux_package {
   background-image: linear-gradient(450deg, #59098f85, #5a2152a6),
-    url("../assets/images/Delux.jpg");
+    url("/src/assets/images/Delux.jpg");
 }
