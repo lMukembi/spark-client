@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import spark from "../images/spark.jpg";
+import Spark from "../images/Spark.jpg";
 import "../styles/login.css";
 
 export const Login = () => {
   return (
     <div className="loginwrapper">
       <div className="header">
-        <img src={spark} alt="" />
+        <img src={Spark} alt="" />
         <h2>Spark Agencies</h2>
       </div>
       <hr />

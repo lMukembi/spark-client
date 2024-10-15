@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/header.css";
-import spark from "../images/spark.jpg";
-import boss from "../images/boss.png";
+import Spark from "../images/Spark.jpg";
+import Boss from "../images/Boss.png";
 import { RiMenuAddLine } from "react-icons/ri";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
@@ -17,7 +17,7 @@ export const Header = () => {
       <div className="headwrapper">
         <div className="head">
           <Link to="/">
-            <img src={spark} alt="" />
+            <img src={Spark} alt="" />
           </Link>
           <div>
             <RiMenuAddLine
@@ -35,7 +35,7 @@ export const Header = () => {
           <div>
             <TbSettingsPlus className="icon" />
           </div>
-          <img src={boss} alt="" />
+          <img src={Boss} alt="" />
         </div>
       </div>
       <hr className="headhr" />
