@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Spark from "../images/Spark.jpg";
+import Spark from "../assets/images/Spark.jpg";
 import "../styles/login.css";
 
 export const Login = () => {

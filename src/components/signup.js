@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/signup.css";
-import Spark from "../images/Spark.jpg";
+import Spark from "../assets/images/Spark.jpg";
 
 export const Signup = () => {
   return (

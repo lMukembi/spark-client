@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/header.css";
-import Spark from "../images/Spark.jpg";
-import Boss from "../images/Boss.png";
+import Spark from "../assets/images/Spark.jpg";
+import Boss from "../assets/images/Boss.png";
 import { RiMenuAddLine } from "react-icons/ri";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
