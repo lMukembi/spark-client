@@ -114,25 +114,28 @@
   font-size: 12px;
 }
 
-.referal .referallink {
+.referal .referallink input {
   font-size: 11px;
   width: 220px;
   background-color: #ccc;
   white-space: nowrap;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px 10px;
+  outline: none;
+  border: none;
 }
 
 .referal .referallink,
-.copylink {
+.referal button {
   display: flex;
   align-items: center;
 }
 
-.referal .referallink .copylink {
+.referal .referallink button {
   background-color: #940d4c;
-  margin-left: -5px;
+  margin-left: -95px;
   border-radius: 10px;
   padding: 8px;
   cursor: pointer;
+  border: none;
 }

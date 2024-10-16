@@ -4,6 +4,17 @@ import { HiOutlineBadgeCheck } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 export const Package = () => {
+  const today = new Date();
+  const day = today.getDay();
+  const dayList = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
   return (
     <div className="package">
       <p>Membership Package</p>
@@ -12,7 +23,7 @@ export const Package = () => {
         Grand Membership
       </div>
       <div className="earningsinfo">
-        <h4>Wednesday's Give away Cashback🎄.</h4>
+        <h4>{dayList[day]}'s Give away Cashback🎄.</h4>
         Buy Elite package@1,000.00 KES and get awarded<i> 3,000.00 KES</i> to
         your M-pesa, buy the Prestige package @2,000.00 KES and get awarded
         <i> 6,000.00 KES</i> to your M-pesa buy the Deluxe package at

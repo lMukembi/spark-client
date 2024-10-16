@@ -5,9 +5,9 @@ import { MdSpaceDashboard } from "react-icons/md";
 import { ImSpinner9 } from "react-icons/im";
 import { IoCashOutline } from "react-icons/io5";
 import { VscGraph } from "react-icons/vsc";
-import { FaMoneyBillTrendUp } from "react-icons/fa6";
-import { TbPigMoney } from "react-icons/tb";
+import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
+import { PiHandDepositBold } from "react-icons/pi";
 
 export const Earnings = () => {
   return (
@@ -57,7 +57,7 @@ export const Earnings = () => {
 
         <div className="academic">
           <div className="academictop">
-            <FaMoneyBillTrendUp className="academicicon" />
+            <LiaFileInvoiceDollarSolid className="academicicon" />
             Academic Balance
           </div>
           <div>KES 0.00</div>
@@ -65,7 +65,7 @@ export const Earnings = () => {
 
         <div className="deposit">
           <div className="deposittop">
-            <TbPigMoney className="depositicon" />
+            <PiHandDepositBold className="depositicon" />
             Deposit Balance
           </div>
           <div>KES 0.00</div>
