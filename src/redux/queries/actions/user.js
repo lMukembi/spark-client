@@ -12,7 +12,10 @@ const apexAPI = "http://localhost:8000";
 export const register = (formData) => async (dispatch) => {
   const headers = {
     "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "http://localhost:3000",
+    "Access-Control-Allow-Origin": [
+      "http://localhost:3000",
+      "https://apex-adverts.netlify.app",
+    ],
   };
 
   const config = {
@@ -49,7 +52,10 @@ export const register = (formData) => async (dispatch) => {
 export const login = (formData) => async (dispatch) => {
   const headers = {
     "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "http://localhost:3000",
+    "Access-Control-Allow-Origin": [
+      "http://localhost:3000",
+      "https://apex-adverts.netlify.app",
+    ],
   };
 
   const config = {
@@ -88,7 +94,10 @@ export const editUser = (id, editForm) => async (dispatch) => {
   const headers = {
     "Content-Type": "application/json",
     Authorization: `Bearer ${token.data}`,
-    "Access-Control-Allow-Origin": "http://localhost:3000",
+    "Access-Control-Allow-Origin": [
+      "http://localhost:3000",
+      "https://apex-adverts.netlify.app",
+    ],
   };
   const config = {
     headers: headers,
