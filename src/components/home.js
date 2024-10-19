@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Login } from "./login";
 import "../styles/home.css";
 import { Header } from "./header";
@@ -12,26 +12,30 @@ import { MdCopyright } from "react-icons/md";
 export const Home = () => {
   const userData = JSON.parse(localStorage.getItem("newUser"));
 
-  return (
-    // <>
-    //   {userData ? (
-    <div className="homewrapper">
-      <Header />
-      <Welcome />
-      <Package />
-      <Earnings />
-      <Transactions />
-      <Referal />
-      <hr className="homehr" />
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-      <div className="homefooter">
-        <MdCopyright />
-        2024, Spark Agencies
-      </div>
+  return (
+    <div>
+      {userData ? (
+        <div className="homewrapper">
+          <Header />
+          <Welcome />
+          <Package />
+          <Earnings />
+          <Transactions />
+          <Referal />
+          <hr className="homehr" />
+
+          <div className="homefooter">
+            <MdCopyright />
+            2024, Spark Agencies
+          </div>
+        </div>
+      ) : (
+        <Login />
+      )}
     </div>
-    //   ) : (
-    //     <Login />
-    //   )}
-    // </>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/images/Logo.jpg";
 import "../styles/menu.css";
 import { MdClose, MdOutlineCurrencyExchange } from "react-icons/md";
-import { Link, Navigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { RxBackpack, RxDashboard } from "react-icons/rx";
 import { MdOutlineReceiptLong } from "react-icons/md";
 import { VscGraph } from "react-icons/vsc";
@@ -13,9 +13,11 @@ import { RiLogoutCircleLine } from "react-icons/ri";
 import { IoPeopleOutline } from "react-icons/io5";
 
 export const Menu = ({ close }) => {
+  const navigate = useNavigate();
+
   function logoutUser() {
     localStorage.clear();
-    Navigate("/login");
+    navigate("/login");
   }
   return (
     <>
@@ -24,7 +26,7 @@ export const Menu = ({ close }) => {
           <Link to="/">
             <img src={Logo} alt="" />
           </Link>
-          <h2>Spark Agencies</h2>
+          <h2>Apex Adverts</h2>
           <MdClose className="menugoback" onClick={() => close()} />
         </div>
         <hr />
@@ -92,7 +94,6 @@ export const Menu = ({ close }) => {
           <div
             onClick={() => {
               logoutUser();
-              close();
             }}
             className="menuitem"
           >

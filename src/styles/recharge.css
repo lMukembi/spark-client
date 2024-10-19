@@ -16,7 +16,7 @@
   margin: 10px 0px;
   border: 2px solid;
   border-color: greenyellow;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: transparent;
 }
 
 .recharge input:focus {

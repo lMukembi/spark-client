@@ -6,7 +6,7 @@ import {
   REGISTER_SUCCESS,
 } from "../constants/user";
 
-const picashAPI = "http://localhost:8000";
+const apexAPI = "http://localhost:8000";
 
 // Register user
 export const register = (formData) => async (dispatch) => {
@@ -21,7 +21,7 @@ export const register = (formData) => async (dispatch) => {
 
   try {
     const { data } = await axios.post(
-      `${picashAPI}/api/user/register`,
+      `${apexAPI}/api/user/register`,
       {
         password: formData.password,
         phone: formData.phone,
@@ -58,7 +58,7 @@ export const login = (formData) => async (dispatch) => {
 
   try {
     const { data } = await axios.post(
-      `${picashAPI}/api/user/login`,
+      `${apexAPI}/api/user/login`,
       {
         phone: formData.phone,
         password: formData.password,
@@ -95,7 +95,7 @@ export const editUser = (id, editForm) => async (dispatch) => {
   };
   try {
     const { data } = await axios.put(
-      `${picashAPI}/api/auth/editUser/${id}`,
+      `${apexAPI}/api/auth/editUser/${id}`,
       config,
       {
         editForm,
@@ -111,7 +111,7 @@ export const editUser = (id, editForm) => async (dispatch) => {
 // Get user
 export const getUser = (id) => async (dispatch) => {
   try {
-    const { data } = await axios.get(`${picashAPI}/api/auth/getUser/${id}`);
+    const { data } = await axios.get(`${apexAPI}/api/auth/getUser/${id}`);
 
     dispatch({ type: GET_USER_SUCCESS, payload: data });
   } catch (error) {

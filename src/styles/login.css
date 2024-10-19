@@ -1,15 +1,15 @@
 .loginwrapper {
-  width: 85%;
-  height: 50%;
+  width: 90%;
   position: relative;
   top: 4rem;
   margin: auto;
   height: 100vh;
+  color: white;
 }
 
 .header img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -25,15 +25,30 @@
   margin: 0 0 2rem 0;
   padding: 1rem 5px;
   border-radius: 10px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  outline: none;
+  color: white;
 }
 
 .login button {
   border: none;
   font-size: 15px;
-  background-color: #9d2e34;
+  background-color: #940d4c;
+  color: white;
+  font-weight: bold;
 }
 
 .login .link {
-  color: #9d2e34;
+  color: grey;
   text-decoration: none;
+}
+
+.login i {
+  cursor: pointer;
+  position: absolute;
+  top: 39.5%;
+  z-index: 2;
+  right: 7%;
+  color: green;
 }

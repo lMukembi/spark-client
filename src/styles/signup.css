@@ -1,9 +1,10 @@
 .signupwrapper {
-  width: 85%;
-  height: 50%;
+  width: 90%;
   position: relative;
   top: 4rem;
   margin: auto;
+  height: 100vh;
+  color: white;
 }
 
 .signup {
@@ -17,14 +18,30 @@
   margin: 0 0 2rem 0;
   padding: 1rem 5px;
   border-radius: 10px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  outline: none;
+  color: white;
 }
 
 .signup button {
   border: none;
   font-size: 15px;
-  background-color: #9d2e34;
+  background-color: #940d4c;
+  color: white;
+  font-weight: bold;
 }
 
-.signup .signup link {
-  color: #9d2e34;
+.signup .link {
+  color: grey;
+  text-decoration: none;
+}
+
+.signup i {
+  cursor: pointer;
+  position: absolute;
+  bottom: 27.5%;
+  z-index: 2;
+  right: 7%;
+  color: green;
 }
